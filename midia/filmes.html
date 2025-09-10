@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Multimidia</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="../css/styles.css">
+   </head>
+   <body>
+      <!-- Header -->
+      <header class="bg-light border-bottom">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid d-flex align-items-center">
+               <!-- Logo -->
+               <a class="navbar-brand me-3" href="../inicio.html" style="font-size: 24px; font-weight: bold;">
+               <img src="../images/logo3.png" alt="Logo EducaMat" style="height: 50px;">
+               </a>
+               <!-- Botão hamburguer -->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <!-- Menu -->
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav d-flex align-items-center flex-wrap">
+                     <li class="nav-item"><a class="nav-link px-3" href="../index.html">Início</a></li>
+                     <li class="nav-item"><a class="nav-link px-3" href="../sobre.html">Sobre</a></li>
+                     <!-- Dropdown Conteúdos -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3" href="#" id="dropdownMaterias" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Conteúdos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMaterias">
+                           <li><a class="dropdown-item" href="../materias/operacoes.html">Operações</a></li>
+                           <li><a class="dropdown-item" href="../materias/notacao.html">Notação Científica</a></li>
+                           <li><a class="dropdown-item" href="../materias/algebra.html">Técnicas Algébricas</a></li>
+                           <li><a class="dropdown-item" href="../materias/equacoes.html">Equações e Inequações</a></li>
+                           <!-- Submenu Funções -->
+                           <li class="dropdown-submenu position-relative">
+                              <a class="dropdown-item dropdown-toggle" href="#">Funções</a>
+                              <ul class="dropdown-menu">
+                                 <li><a class="dropdown-item" href="../materias/func/ConceitosFundamentais.html">Conceitos Fundamentais</a></li>
+                                 <li><a class="dropdown-item" href="../materias/func/Equacoesexponenciais.html">Equações Exponenciais</a></li>
+                                 <li><a class="dropdown-item" href="../materias/func/Funcao1grau.html">Função do 1º Grau</a></li>
+                                 <li><a class="dropdown-item" href="../materias/func/Funcao2grau.html">Função do 2º Grau</a></li>
+                                 <li><a class="dropdown-item" href="../materias/func/Funcaoexponencial.html">Função Exponencial</a></li>
+                                 <li><a class="dropdown-item" href="../materias/func/Logaritmos.html">Função Logarítmica</a></li>
+                              </ul>
+                           </li>
+                           <!-- Submenu Geometria -->
+                           <li class="dropdown-submenu position-relative">
+                              <a class="dropdown-item dropdown-toggle" href="#">Geometria</a>
+                              <ul class="dropdown-menu">
+                                 <li><a class="dropdown-item" href="../materias/geo/areapoligonos.html">Área de Polígonos</a></li>
+                                 <li><a class="dropdown-item" href="../materias/geo/arearazao.html">Área e razão entre figuras planas</a></li>
+                                 <li><a class="dropdown-item" href="../materias/geo/circunferencia.html">Circunferência e círculo</a></li>
+                                 <li><a class="dropdown-item" href="../materias/geo/poligonosregulares.html">Polígonos regulares</a></li>
+                                 <li><a class="dropdown-item" href="../materias/geo/relacoes.html">Relações trigonométricas em polígonos</a></li>
+                                 <li><a class="dropdown-item" href="../materias/geo/retangulos.html">Triângulos retângulos</a></li>
+                                 <li><a class="dropdown-item" href="../materias/geo/retasparalelas.html">Retas paralelas cortadas por uma transversal</a></li>
+                                 <li><a class="dropdown-item" href="../materias/geo/semelhanca.html">Semelhança de triângulos</a></li>
+                                 <li><a class="dropdown-item" href="../materias/geo/simetria.html">Simetrias e congruências</a></li>
+                                 <li><a class="dropdown-item" href="../materias/geo/teorematales.html">Teorema de Tales</a></li>
+                              </ul>
+                           </li>
+                           <li><a class="dropdown-item" href="../materias/estatistica.html">Estatística</a></li>
+                           <li><a class="dropdown-item" href="../materias/porcentagem.html">Porcentagem</a></li>
+                           <li><a class="dropdown-item" href="../materias/sequencias.html">Sequências</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item"><a class="nav-link px-3" href="../materias/multimidia.html">Multimídia</a></li>
+                     <li class="nav-item"><a class="nav-link px-3" href="../contato.html">Contato</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- Conteúdo da página -->
+      <div class="container mt-5 pt-5">
+         <h1 class="text-center mb-4">Filmes e Documentários</h1>
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/jogodaimitacao.jpg" class="card-img-top" alt="Poster do Filme 1" style="height: 650px; object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">O Jogo da Imitação </h5>
+                     <p class="card-text">Durante a Segunda Guerra Mundial, o governo britânico monta uma equipe que tem por objetivo quebrar o Enigma, o famoso código que os alemães usam para enviar mensagens aos submarinos. Um de seus integrantes é Alan Turing (Benedict Cumberbatch), um matemático de 27 anos estritamente lógico e focado no trabalho, que tem problemas de relacionamento com praticamente todos à sua volta. Não demora muito para que Turing, apesar de sua intransigência, lidere a equipe. Seu grande projeto é construir uma máquina que permita analisar todas as possibilidades de codificação do Enigma em apenas 18 horas, de forma que os ingleses conheçam as ordens enviadas antes que elas sejam executadas. Entretanto, para que o projeto dê certo, Turing terá que aprender a trabalhar em equipe e tem Joan Clarke (Keira Knightley) sua grande incentivadora.</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> Max; Prime Video</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/umamentebrilhante.jpg" class="card-img-top" alt="Poster do Filme 2" style="height: 650px;object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">Uma Mente Brilhante</h5>
+                     <p class="card-text">John Nash (Russell Crowe) é um gênio da matemática que, aos 21 anos, formulou um teorema que provou sua genialidade e o tornou aclamado no meio onde atuava. Mas aos poucos o belo e arrogante Nash se transforma em um sofrido e atormentado homem, que chega até mesmo a ser diagnosticado como esquizofrênico pelos médicos que o tratam. Porém, após anos de luta para se recuperar, ele consegue retornar à sociedade e acaba sendo premiado com o Nobel.</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> Prime Video</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/ohomemqueviuoinfinito.jpg" class="card-img-top" alt="Poster do Filme 3" style="height: 650px; object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">O Homem que Viu o Infinito</h5>
+                     <p class="card-text">Uma verdadeira história de amizade que mudou a matemática para sempre. Em 1913, Ramanujan, um gênio da matemática autodidata da Índia viaja para a o Colégio Trinity, na Universidade de Cambridge, onde ele se aproxima do seu mentor, o excêntrico professor GH Hardy, e luta para mostrar ao mundo a brilhantia de sua mente.</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> Prime Video</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/estrelasalemdotempo.jpg" class="card-img-top" alt="Poster do Filme 3" style="height: 650px; object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">Estrelas Além do Tempo </h5>
+                     <p class="card-text">1961. Em plena Guerra Fria, Estados Unidos e União Soviética disputam a supremacia na corrida espacial ao mesmo tempo em que a sociedade norte-americana lida com uma profunda cisão racial, entre brancos e negros. Tal situação é refletida também na NASA, onde um grupo de funcionárias negras é obrigada a trabalhar a parte. É lá que estão Katherine Johnson (Taraji P. Henson), Dorothy Vaughn (Octavia Spencer) e Mary Jackson (Janelle Monáe), grandes amigas que, além de provar sua competência dia após dia, precisam lidar com o preconceito arraigado para que consigam ascender na hierarquia da NASA.</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> Disney+</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/genioindomavel.jpg" class="card-img-top" alt="Poster do Filme 3" style="height: 650px; object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">Gênio Indomável</h5>
+                     <p class="card-text">Em Boston, um jovem de 20 anos (Matt Damon) que já teve algumas passagens pela polícia e servente de uma universidade, revela-se um gênio em matemática e, por determinação legal, precisa fazer terapia, mas nada funciona, pois ele debocha de todos os analistas, até se identificar com um deles.</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> Mercado Play; Telecine; Prime Video; Google Play </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/mudouojogo.jpg" class="card-img-top" alt="Poster do Filme 3" style="height: 650px; object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">O Homem que Mudou o Jogo</h5>
+                     <p class="card-text">Baseado em fatos reais, O Homem que Mudou o Jogo é a história de Billy Beane (Brad Pitt), gerente do time de baseball Oakland Athletics. Com pouco dinheiro em caixa e a ajuda de Peter Brand (Jonah Hill), ele desenvolve um sofisticado programa de estatísticas para o clube, fazendo com que ficasse entre as principais equipes do esporte nos anos 80.</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> Netflix</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/rainman.jpg" class="card-img-top" alt="Poster do Filme 3" style="height: 650px; object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">Rain Man</h5>
+                     <p class="card-text">Charlie (Tom Cruise), um jovem yuppie, fica sabendo que seu pai faleceu. Eles nunca se deram bem e não se viam há vários anos, mas ele vai ao enterro e ao cuidar do testamento descobre que herdou um Buick 1949 e algumas roseiras premiadas, enquanto um "beneficiário" tinha herdado três milhões de dólares. Curioso em saber quem herdou a fortuna, ele descobre que foi seu irmão Raymond (Dustin Hoffman), cuja existência ele desconhecia. Autista, Raymond é capaz de calcular problemas matemáticos com grande velocidade e precisão. Charlie sequestra o irmão da instituição onde ele está internado para levá-lo para Los Angeles e exigir metade do dinheiro, nem que para isto tenha que ir aos tribunais. É durante uma viagem cheia de pequenos imprevistos que os dois entenderão o significado de serem irmãos.</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> Prime Video</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/enigmasdeumcrime.jpg" class="card-img-top" alt="Poster do Filme 3" style="height: 650px; object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">Enigmas de um crime</h5>
+                     <p class="card-text">Martin (Elijah Wood) é um estudante de pós-doutorado em ciências matemáticas na prestigiada Universidade de Oxford, na Inglaterra. Lá, o aluno espera encontrar aquele que deseja tornar o seu mestre: o Professor Arthur Seldom (John Hurt). Os dois iniciam uma relação complicada, mas estável até que tudo vai por água abaixo quando eles encontram o cadáver de uma jovem no campus.</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> Prime Video</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/stats.jpeg" class="card-img-top" alt="Poster do Filme 3" style="height: 650px; object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">O prazer da Estatística</h5>
+                     <p class="card-text">Este documentário foi produzido pela BBC e é apresentado pelo professor Hans Rosling, Mostra aspectos históricos da Estatística, seu funcionamento e como é usada atualmente. Alguns aspectos abordados incluem a gestão da segurança na cidade de São Francisco nos EUA e a atuação do software Google no auxílio de buscas pela internet.</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> <a href="https://www.ime.usp.br/ativestat/atividades/filmes/fv18.php">Clique Aqui</a></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">
+                  <img src="../images/historia.jpg" class="card-img-top" alt="Poster do Filme 3" style="height: 650px; object-fit: cover;">
+                  <div class="card-body">
+                     <h5 class="card-title">A história da Matemática </h5>
+                     <p class="card-text">Documentário da BBC - A História da Matemática com o filme, "A LINGUAGEM DO UNIVERSO "</p>
+                     <p class="card-text"><strong>Onde assistir:</strong> <a href="https://www.youtube.com/watch?v=Ogqn2MCIXCo">Clique Aqui</a></p>
+                  </div>
+               </div>
+            </div>
+            <!-- Adicione mais cards conforme necessário -->
+         </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <footer class="bg-light text-center text-muted py-4 border-top mt-5">
+         <div class="container">
+            <p class="mb-0 px-3" style="font-size: 14px;">
+               Este repositório foi criado a partir da curadoria de materiais disponíveis gratuitamente na internet, sendo que os direitos autorais pertencem a cada um dos materiais encontrados. <br>
+            </p>
+         </div>
+      </footer>
+   </body>
+</html>
+
+
+
